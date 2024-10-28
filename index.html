@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="PalacioRegalo_files/favicon-16x16.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM84D5u7eI3V7k9a7z1U3Xo1LyZqkkg8F/q1n8" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <!-- Vinculando el CSS -->
+   <title>El Palacio de los Regalos</title>
+</head>
+
+<body>
+   <!-- Encabezado de la página-->
+   <header id="inicio">
+      <img src="PalacioRegalo_files/logo.jpg" width="100" alt="logo palacio del regalo">
+      <h1>Regalos que te Salvan</h1>
+   </header>
+   <!-- Barra de Menú-->
+   <nav>
+      <ul>
+         <li><a href="#inicio">Inicio</a></li>
+         <li><a href="#categorias">Categorías</a></li>
+         <li><a href="#contacto">Contacto</a></li>
+      </ul>
+   </nav>
+   <!-- Sección Principal-->
+   <main>
+      <section id="categorias">
+         <h2>Categorías de Compra</h2>
+         <p>¡Los mejores regalos!</p>
+         <p>En nuestra tienda encontrarás una cuidada selección de Regalos Top que impresionarán a tus seres queridos, Ideas de Regalos creativas para cualquier celebración, y Regalos Económicos que demuestran que lo importante es el detalle, no el precio. Navega por nuestras categorías y encuentra el detalle ideal que hará sonreír a quien más quieres. ¡Regalar nunca fue tan fácil y divertido!</p>
+         <div class="image-container">
+            <div class="image-box">
+               <img src="PalacioRegalo_files/RegalosTop.webp" alt="portada de regalos top">
+               <span class="image-text">Regalos Top</span>
+            </div>
+            <div class="image-box">
+               <img src="PalacioRegalo_files/Ideas.webp" alt="portada de ideas para regalos">
+               <span class="image-text">Ideas Para Regalos</span>
+            </div>
+            <div class="image-box">
+               <img src="PalacioRegalo_files/Economicos.webp" alt="portada de regalos económicos">
+               <span class="image-text">Regalos Económicos</span>
+            </div>
+         </div>
+      </section>
+      <section>
+         <h2>Seleccionados del mes</h2>
+         <video width="250" controls loading="lazy">
+            <source src="videos/videoHTML.mp4">
+            <track src="videos/subs-es.vtt" label="Español" default>
+            <track src="videos/subs-en.vtt" label="English">
+         </video>
+      </section>
+      <!-- Sección Info Pagos-->
+      <section id="contacto">
+         <h2>Contacto</h2>
+         <p class="parrafo-verde">Si estás buscando el regalo perfecto para sorprender a tu familia o amigos, ¡estás en el lugar correcto! Te invitamos a que nos contactes para obtener más información sobre nuestras opciones de regalos. Estamos aquí para ayudarte a encontrar ese detalle especial que hará sonreír a tus seres queridos.
+         </p>
+         <h3 class="parrafo-verde">Déjanos tu consulta</h3>
+         <form action="https://formspr.io/f/xqakzgpv" method="post" class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+         </form>
+         <h3>Visítanos</h3>
+         <iframe width="100%" height="500" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2223382166144!2d-58.465737!3d-34.573963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58fdc9fbcf3%3A0xc3d3d8b8c4a07a6d!2sConde%203025%2C%20C1428DNM%20CABA%2C%20Argentina!5e0!3m2!1sen!2s!4v1698497652054!5m2!1sen!2s"
+            allowfullscreen="" loading="lazy">
+         </iframe>
+         <h3>Escríbenos</h3>
+         <ul>
+            <li><a href="mailto:violaleandro88@hotmail.com" target="_blank"><i class="fas fa-envelope"></i> Correo:
+                  violaleandro88@hotmail.com</a>
+            </li>
+            <li><a href="https://wa.me/5491133769111" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp:
+                  +5491133769111</a>
+            </li>
+            <li><a href="https://www.instagram.com/elbirras.ok" target="_blank"><i class="fab fa-instagram"></i>
+                  Instagram: elbirras.ok</a>
+            </li>
+            <li><span>Dirección: Conde 3025, CABA, Argentina</span></li>
+            <li><a href="https://www.linkedin.com/in/violaleandro88/" target="_blank"><i class="fab fa-linkedin"></i>
+                  LinkedIn</a>
+            </li>
+         </ul>
+         <footer id="seccion-contacto-footer"></footer>
+      </section>
+      <!-- Pie de la página-->
+      <footer id="pagina-footer">
+         <h4>Contáctanos</h4>
+         <ul>
+            <li><a href="mailto:violaleandro88@hotmail.com" target="_blank"><i class="fas fa-envelope"></i> Correo:
+                  violaleandro88@hotmail.com</a>
+            </li>
+            <li><a href="https://wa.me/5491133769111" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp:
+                  +5491133769111</a>
+            </li>
+            <li><a href="https://www.instagram.com/elbirras.ok" target="_blank"><i class="fab fa-instagram"></i>
+                  Instagram: elbirras.ok</a>
+            </li>
+            <li><span>Dirección: Conde 3025, CABA, Argentina</span></li>
+            <li><a href="https://www.linkedin.com/in/violaleandro88/" target="_blank"><i class="fab fa-linkedin"></i>
+                  LinkedIn</a>
+            </li>
+         </ul>
+      </footer>
+</body>
+
+</html>
